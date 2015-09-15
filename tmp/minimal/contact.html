@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Your title</title>
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+  	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/font-awesome-ie7.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="img/favicon.ico">
+
+</head>
+<body>
+
+
+
+	<!-- Primary Page Layout
+	================================================== -->
+	<header>
+		<h4 class="logo">BASIC</h4>
+		<div class="menubutton"><i class="icon-reorder"></i></div>
+		<nav>
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="archive.html">ARCHIVE</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+				<li class="search"><i class="icon-search"></i><i class="icon-remove"></i></li>
+			</ul>
+
+			<div class="search_popup">
+				<form>
+					<input type="text" value="Search..." onfocus="if (this.value == 'Search...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search...';}"></input>
+					<button type="submit">Search</button>
+				</form>
+			</div>
+		</nav>
+		<br class="clear" />
+	</header>
+
+	<section>
+		<div class="eight columns" id="contact">
+			<p>Basic comes with a simple (and optional) contact form. It features validation and a success message. Give it a shot and see how easy it works.</p>
+
+			<hr>
+
+			<p class="message center" style="display: none;">Message sent. Thank you for contacting me. I will reply to you as soon as possible.</p>
+	
+			<form class="contact" id="contact_form" method="post" action="">
+				<h6>YOUR NAME</h6>
+				<input type="text" name="name" id="name" class="required" required="required" />
+				<h6>YOUR EMAIL</h6>
+				<input type="text" name="email" id="email" class="required email" required="required" />
+				<h6>YOUR MESSAGE</h6>
+				<textarea id="comment" name="message" id="message" class="required" minlength="3" required="required"></textarea>
+				<button type="submit">Send message</button>
+			</form>
+		
+		</div>
+		<br class="clear" />
+	</section>
+
+	<footer>
+		<div class="slate">
+			<div class="four columns">
+				<h5>Find us on Twitter <a href="#">@your username</a></h5>
+				<div class="tweet"></div>
+			</div>
+			<div class="four columns">
+				<h5>Footer widget</h5>
+				<p>A tiny little widget for a small message for your visitors. You could include social links or an email address for example. It's completely up to you.</p>
+				<a href="#"><button class="facebook"><i class="icon-facebook"></i></button></a>
+				<a href="#"><button class="twitter"><i class="icon-twitter"></i></button></a>
+				<a href="#"><button class="linkedin"><i class="icon-linkedin"></i></button></a>
+				<a href="#"><button class="google_plus"><i class="icon-google-plus"></i></button></a>
+				<a href="#"><button class="pinterest"><i class="icon-pinterest"></i></button></a>
+			</div>
+		</div>
+	</footer>
+
+	<!-- JS
+	================================================== -->
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src="js/jquery.tweet.js"></script>
+	<script src="js/jquery.fitvids.js"></script>
+	<script src="js/respond.min.js"></script>
+	<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script>
+	<script src="js/script.js"></script>
+
+
+<!-- End Document
+================================================== -->
+</body>
+</html>
